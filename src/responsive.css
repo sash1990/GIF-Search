@@ -1,0 +1,50 @@
+@media (min-width: 1200px){
+    .main-sec .container{padding: 0 85px;}
+}
+
+@media (min-width: 992px){
+    .main-sec .container{padding: 0 85px;}
+}
+
+@media (max-width: 991px) {
+    .header-search-sec-inner{padding: 0;}
+    .footer-bottom .links span{margin: 0;}
+    .footer-bottom .links, .footer .sign-up .mail-section input{width: 100%;}
+    .footer .browse-categories, .footer .sign-up{width:100%; float:left; padding-bottom: 15px;}
+    .footer{padding: 38px 0 35px;}
+    .footer-bottom .social-icon{float: left;}
+    .header-search-sec{padding: 80px 0 110px;}
+    .header-search-sec h1 {font-size: 58px;}
+    .search-box-sec .form-control {height: 50px; font-size: 15px;}
+    .input-group-text, .search-box-sec select{height: 50px; background-position-y: 22px;}
+    .header-search-sec p.subtitle {font-size: 26px; color: #fff; padding: 68px 0 20px 0;}
+}
+
+
+@media (max-width: 767px) {
+    .header-search-sec h1 {font-size: 50px;}
+    .header-search-sec {padding: 60px 0 80px;}
+    .search-box-sec select{background-size: 12px; font-size: 14px; right: 64px; background-position-x: 80%;}
+    .form-control-submit img{width: 20px;}
+    .header-search-sec p.subtitle {font-size: 22px;}
+    .footer .sign-up .mail-section button, .header-search-sec p {font-size: 15px;}
+    .footer h3 {font-size: 20px;}
+    .footer .sign-up .mail-section input{height: 45px; font-size: 14px;}
+    .social-icon a img{width: 30px;}
+    .browse-categories li, .footer-bottom .links{font-size: 14px;}
+}
+
+@media (max-width: 640px) {}
+
+@media (max-width: 545px) {}
+
+@media (max-width: 480px) {
+    .search-box-sec select {background-size: 10px; font-size: 12px; right: 60px; background-position-x: 80%; padding: 0 26px 0 10px;}
+    .form-control-submit img {width: 15px;}
+    .search-box-sec .form-control{font-size: 13px;}
+    .header-search-sec h1 {font-size: 40px;}
+}
+
+@media (max-width: 360px) {}
+
+@media (max-width: 320px) {}
